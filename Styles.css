@@ -9,7 +9,7 @@ box-sizing:border-box;
     right: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, #000428, #004e92);
+    background: linear-gradient(to right, #000428, palevioletred);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -18,10 +18,11 @@ box-sizing:border-box;
     left: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, #02a8a8, #4fb783);
+    background: linear-gradient(to right, #02a8a8, sandybrown);
     background-size: cover;
     background-position: 50% 50%;
 }
+
  
 #background {
     width: 100%;
@@ -49,16 +50,24 @@ box-sizing:border-box;
 .left {
     width: 50%;
     height: 100%;
-    background: #ffff;
+    background:lightsalmon ;
     left: 0;
     position: absolute;
+}
+.left:hover{
+background-color:lightskyblue;
+text-align:center;
 }
 .right {
     width: 50%;
     height: 100%;
-    background: #ffff;
+    background: pink;
     right: 0;
     position: absolute;
+}
+.right:hover{
+background-color:lightslategrey;
+text-align:center;
 }
 .content {
     width: 250px;
@@ -70,18 +79,25 @@ box-sizing:border-box;
 }
  
 .content h2 {
-    color: #4caf50;
+    color: red;
     font-size: 35px;
+}
+.content h2:hover{
+color:darkblue;
 }
  
 button {
     background-color: #4caf50;
-    color: white;
+    color: black;
     width: auto;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
+}
+button:hover{
+color:white;
+background-color:black;
 }
  
 input[type="text"],
@@ -96,6 +112,6 @@ input[type="password"] {
  
 .on-off {
     background: none;
-    color: #4caf50;
+    color: purple;
     box-shadow: none;
 }
