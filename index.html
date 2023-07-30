@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1" />
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+</head>
+
+<body>
+	<div id="background">
+		<div class="background-Right"></div>
+		<div class="background-Left"></div>
+	</div>
+
+	<div id="slide">
+		<div class="top">
+			<div class="left">
+				<div class="content">
+					<h2>Sign Up</h2>
+					<form method="post"
+						onsubmit="return false;">
+						<div>
+							<label id="name-label" for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required/>
+							<br />
+              <label id="email-label" for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-control"
+placeholder="Enter your email id"
+                                required/>
+              <br />
+              
+							<label id="password-label" for="password"> Password:</label>
+              
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Enter your password"
+            required/>
+						</div>
+					</form>
+
+					<button id="LeftToRight"
+						class="on-off">Login
+					</button>
+					
+					<button>Register</button>
+				</div>
+			</div>
+
+			<div class="right">
+				<div class="content">
+					<h2>Login</h2>
+					<form method="post"
+						onsubmit="return false;">
+						<div>
+							<label id="name-label" for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required/>
+							<br />
+              <label id="email-label" for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-control"
+placeholder="Enter your email id"
+                                required/>
+              <br/>
+              
+							<label id="password-label" for="password"> Password:</label>
+              
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder="Enter your password"
+            required/>
+						</div>
+
+						<button id="RightToLeft"
+							class="on-off">Register
+						</button>
+						
+						<button>Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
